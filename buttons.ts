@@ -1,4 +1,8 @@
+// importação do StyleSheet do react native para ser possivel fazer a estilização dos componentes
+
 import { StyleSheet } from 'react-native';
+
+// variavel que é usada para fazer a estilização dos componentes
 
 const stylesButton = StyleSheet.create({
     button: {
@@ -43,5 +47,7 @@ const stylesButton = StyleSheet.create({
         marginBottom: 10,
     },
 });
+
+// exportar o arquivo para ser usado no arquivo raiz (App.tsx)
 
 export default stylesButton;
